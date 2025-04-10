@@ -32,13 +32,27 @@ This site will provide:
 
 3. **Open or edit `index.html`**
 
-    You can open the file with a code editor of your choice:
-
     ```bash
     code index.html
     ```
 
-    Or use any editor (e.g., VS Code, Sublime, etc.).
+    You can also use any editor of your choice.
+
+---
+
+## 🔐 Branch Protection Rules (Important)
+
+The `main` branch is protected by a GitHub ruleset. You **cannot push or commit directly to `main`**. All contributions must go through the following process:
+
+- Work from the `staging` branch (or a feature branch created from it).
+- Open a **pull request (PR)** into `main` from `staging`.
+- Your PR must meet the following requirements:
+  - ✅ At least 1 approval from a reviewer
+  - ✅ All conversations must be resolved before merging
+  - 🚫 Direct commits and force pushes to `main` are blocked
+  - ✅ Merge method is limited to **Squash** for a clean history
+
+These rules ensure a safe, organized, and review-driven development process.
 
 ---
 
