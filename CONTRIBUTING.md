@@ -21,6 +21,20 @@ All development work should be done on `staging`. Only pull requests from `stagi
 
 ---
 
+## 🔐 Branch Protection Rules
+
+The `main` branch is protected by a GitHub ruleset. This means:
+
+- 🚫 **No direct commits or pushes** to `main`
+- ✅ **All changes must go through a pull request (PR)**
+- ✅ **At least 1 approving review** is required to merge
+- ✅ **All review conversations must be resolved** before merging
+- ✅ **Only squash merges are allowed** for a clean history
+
+If you attempt to push to `main`, GitHub will block the action. Always work from `staging` or a feature branch created from it.
+
+---
+
 ## 💡 Ways to Contribute
 
 - Improve layout and styling (HTML/CSS)
