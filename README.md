@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BSides SWFL 2025 Website
 
-## Getting Started
+Welcome to the official website repository for the **BSides Southwest Florida 2025** conference, taking place on **November 7–8, 2025**. This is a collaborative project led by FSW's Software Engineering Club and community volunteers. Our goal is to build a clean, accessible, and exciting web presence for BSides SWFL!
 
-First, run the development server:
+![BSides SWFL Logo](BSidesSWFL-Logo-V1.1-Color.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧭 Project Goals
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This site will provide:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Event date and location info
+- Speaker and sponsor information
+- Call for papers and volunteer forms
+- Agenda, workshops, and after-party info
+- Resources and archives post-event
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/bsides-swfl-2025.git
+   cd bsides-swfl-2025
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Switch to the staging branch**
 
-## Deploy on Vercel
+   ```bash
+   git checkout staging
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Open or edit `index.html`**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   code index.html
+   ```
+
+   You can also use any editor of your choice.
+
+---
+
+## 🔐 Branch Protection Rules (Important)
+
+The `main` branch is protected by a GitHub ruleset. You **cannot push or commit directly to `main`**. All contributions must go through the following process:
+
+- Work from the `staging` branch (or a feature branch created from it).
+- Open a **pull request (PR)** into `main` from `staging`.
+- Your PR must meet the following requirements:
+  - ✅ At least 1 approval from a reviewer
+  - ✅ All conversations must be resolved before merging
+  - 🚫 Direct commits and force pushes to `main` are blocked
+  - ✅ Merge method is limited to **Squash** for a clean history
+
+These rules ensure a safe, organized, and review-driven development process.
+
+---
+
+## 🧑‍💻 How to Contribute
+
+1. **Work on the `staging` branch only.**  
+   Do not commit directly to `main`.
+
+2. **Suggested contributions:**
+
+   - Layout and design updates (HTML/CSS/JS)
+   - Components for speaker lists, schedules, forms, etc.
+   - Branding updates (use the provided logo)
+
+3. **Submit a pull request from `staging` to `main`**  
+   Only when you're ready for production review.
+
+---
+
+## ✅ Commit Guidelines
+
+Use clear and descriptive commit messages like:
+
+- `Add speaker section layout`
+- `Style landing page header`
+- `Include BSides SWFL logo in assets`
+
+Prefer Conventional Commits:
+
+- `feat(home): add hero section`
+- `fix(style): adjust contrast for accessibility`
+
+---
+
+## 🧾 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌐 Domain
+
+The domain `bsidesswfl.org` is already registered and configured via the `CNAME` file for deployment.
+
+---
+
+## 🙌 Credits
+
+Organized by [BSides SWFL](https://bsidesswfl.org)  
+Developed by the **FSW Software Engineering Club** and community volunteers.
+
+---
+
+Thanks for contributing — let’s build something awesome together!
