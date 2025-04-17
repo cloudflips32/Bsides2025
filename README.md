@@ -1,5 +1,7 @@
 # BSides SWFL 2025 Website
 
+[Current production version](https://bsides2025.vercel.app/)
+
 Welcome to the official website repository for the **BSides Southwest Florida 2025** conference, taking place on **November 7–8, 2025**. This is a collaborative project led by FSW's Software Engineering Club and community volunteers. Our goal is to build a clean, accessible, and exciting web presence for BSides SWFL!
 
 ![BSides SWFL Logo](BSidesSWFL-Logo-V1.1-Color.png)
