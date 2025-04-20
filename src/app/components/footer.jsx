@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { Facebook, Linkedin, Code } from "lucide-react"
-import { SiX, SiYoutube, SiDiscord, SiFacebook, SiFacebooklive } from '@icons-pack/react-simple-icons'
+import { Linkedin} from "lucide-react"
+import { SiX, SiYoutube, SiDiscord, SiFacebook } from '@icons-pack/react-simple-icons'
 
 export default function Footer() {
   return (
