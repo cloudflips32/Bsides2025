@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Search, Menu, X } from "lucide-react"
 
-export default function Navbar() {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -89,3 +89,5 @@ export default function Navbar() {
     </nav>
   )
 }
+
+export default Navbar

@@ -1,5 +1,5 @@
-import Hero from "./components/Hero"
-import InfoCards from "./components/InfoCards"
+import Hero from "./components/hero"
+import InfoCards from "./components/info-cards"
 
 export default function Home() {
   return (
