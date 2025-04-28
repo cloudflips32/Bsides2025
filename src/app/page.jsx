@@ -1,7 +1,9 @@
-import Footer from "./components/footer"
-import Hero from "./components/hero"
-import InfoCards from "./components/info-cards"
-import Navbar from "./components/navbar"
+"use client";
+
+import Footer from "./components/footer";
+import Hero from "./components/Hero"
+import InfoCards from "./components/InfoCards"
+import Navbar from "./components/Navbar"
 
 export default function Home() {
   return (
