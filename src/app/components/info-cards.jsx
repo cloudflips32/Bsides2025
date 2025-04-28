@@ -13,7 +13,7 @@ export default function InfoCards() {
           </CardHeader>
           <CardContent>
             <p className="text-gray-700">
-              TechSides Conference is organized by volunteers and relies on funding from industry sponsors and
+              BSides SWFL is organized by volunteers and relies on funding from industry sponsors and
               donations.
             </p>
           </CardContent>
@@ -45,7 +45,7 @@ export default function InfoCards() {
             <CardTitle className="text-2xl">We need your Help!</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-700">Come join the fun and help us make 2025 the best TechSides Conference ever.</p>
+            <p className="text-gray-700">Come join the fun and help us make 2025 the best BSides SWFL ever.</p>
           </CardContent>
           <CardFooter>
             <Link href="/volunteer" className="bg-purple-800 hover:bg-purple-500 text-white">

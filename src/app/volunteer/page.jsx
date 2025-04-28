@@ -36,7 +36,7 @@ export default function Volunteer() {
 
   return (
     <>
-      <main>
+      <main className='container mx-auto p-4'>
         <h1 className='text-3xl font-bold mb-4 mt-4 text-center'>Volunteer</h1>
         <form onSubmit={handleSubmit} className="max-w-xl mt-6 mx-auto my-6">
           <div className="mb-4">
