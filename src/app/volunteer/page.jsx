@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const Volunteer = () => {
+export default function Volunteer() {
   return (
     <> 
       <Navbar />
@@ -13,5 +13,3 @@ const Volunteer = () => {
     </>
   )
 }
-
-export default Volunteer

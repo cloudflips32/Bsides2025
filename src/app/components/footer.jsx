@@ -24,7 +24,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="text-center text-sm">
-          <p>© 2025 BSides Conference. All rights reserved.</p>
+          <p>© 2025 BSides SWFL. All rights reserved.</p>
         </div>
       </div>
     </footer>

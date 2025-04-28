@@ -1,6 +1,6 @@
 "use client";
 
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero"
 import InfoCards from "./components/InfoCards"
 import Navbar from "./components/Navbar"
