@@ -1,6 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/ui/card"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 
 export default function SchedulePage() {
   // Sample schedule data
@@ -40,7 +38,6 @@ export default function SchedulePage() {
 
   return (
     <>
-      <Navbar />
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-8 text-center">Conference Schedule</h1>
 
@@ -65,7 +62,6 @@ export default function SchedulePage() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   )
 }

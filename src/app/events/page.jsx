@@ -1,6 +1,3 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
 
 export default function Events() {
@@ -46,7 +43,6 @@ export default function Events() {
   
   return (
     <>
-      <Navbar />
       <main className="max-w-5xl mx-auto my-6 p-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Events</h1>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -63,7 +59,6 @@ export default function Events() {
           ))}
         </section>
       </main>
-      <Footer />
     </>
   )
 }

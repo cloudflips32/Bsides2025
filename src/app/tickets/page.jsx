@@ -1,7 +1,5 @@
 import { Button } from "@/app/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/app/ui/card"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 
 export default function TicketsPage() {
   const ticketTypes = [
@@ -51,7 +49,6 @@ export default function TicketsPage() {
 
   return (
     <>
-      <Navbar />
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-4 text-center">Conference Tickets</h1>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -116,7 +113,6 @@ export default function TicketsPage() {
           </Button>
         </div>
       </div>
-      <Footer />
     </>
   )
 }

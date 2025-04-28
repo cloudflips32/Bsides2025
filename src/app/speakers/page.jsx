@@ -1,6 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/ui/card"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 
 export default function SpeakersPage() {
   // Sample speakers data
@@ -45,7 +43,6 @@ export default function SpeakersPage() {
 
   return (
     <>
-      <Navbar className="dark bg-purple-100 dark:bg-opacity-10 dark:text-black dark:bg-gradient-to-r from-purple-500 to-purple-600 dark:from-purple-400 dark:to-purple-500 dark:via-purple-400 dark:via-opacity-90 dark:via-opacity-80 dark:via-opacity-70 dark:via-opacity-60 dark:via-opacity-50 dark:via-opacity-40 dark:via-opacity-30 dark:via-opacity-20 dark:via-opacity-10 dark:via-opacity-0 dark:via" />
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-8 text-center">Conference Speakers</h1>
 
@@ -74,7 +71,6 @@ export default function SpeakersPage() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   )
 }

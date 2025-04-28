@@ -1,6 +1,3 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
 
 const workshops = [
@@ -45,7 +42,6 @@ const workshops = [
 const Workshops = () => {
   return (
     <>
-      <Navbar />
       <main className="max-w-5xl mx-auto  my-6 p-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Workshops</h1>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -62,7 +58,6 @@ const Workshops = () => {
           ))}
         </section>
       </main>
-      <Footer />
     </>
   )
 }
