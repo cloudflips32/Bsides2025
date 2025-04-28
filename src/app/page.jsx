@@ -1,5 +1,3 @@
-"use client";
-
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import InfoCards from "./components/InfoCards"
