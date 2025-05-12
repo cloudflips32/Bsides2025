@@ -4,7 +4,7 @@ import { SiX, SiYoutube, SiDiscord, SiFacebook } from '@icons-pack/react-simple-
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-6 h-[14.5vh] fixed bottom-0 left-0 right-0 z-50">
+    <footer className="bg-black text-white py-6 h-[12.5vh] fixed bottom-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center gap-6 mb-6">
           <Link href="https://x.com/BSides_SWFL" className="hover:text-gray-300" aria-label="Twitter">
