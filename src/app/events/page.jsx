@@ -46,7 +46,8 @@ export default function Events() {
       <main className="max-w-5xl mx-auto my-6 p-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Events</h1>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <p>Coming Soon!</p>
+          <p>CTF Challenges and Villages Abound!</p>
+          <p>Official Schedule Coming Soon!</p>
           {/* {events.map(event => (
             <Card key={event.id}>
               <CardHeader>
