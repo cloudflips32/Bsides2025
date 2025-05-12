@@ -46,7 +46,8 @@ export default function Events() {
       <main className="max-w-5xl mx-auto my-6 p-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Events</h1>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {events.map(event => (
+          <p>Coming Soon!</p>
+          {/* {events.map(event => (
             <Card key={event.id}>
               <CardHeader>
                 <CardTitle>{event.title}</CardTitle>
@@ -56,7 +57,7 @@ export default function Events() {
                 <p>{event.description}</p>
               </CardContent>
             </Card>
-          ))}
+          ))} */}
         </section>
       </main>
     </>
