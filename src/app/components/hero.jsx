@@ -26,7 +26,7 @@ export default function Hero() {
 
           {/* Area to display the map */}
           <div className="mt-12 flex justify-center">
-            <img src="/map.png" alt="Map of the event location" className="w-full h-auto shadow-lg hover:scale-180 transition-transform duration-300" />
+            <img src="/map.png" alt="Map of the event location" className="w-full h-auto shadow-lg hover:scale-125 transition-transform duration-300" />
           </div>
         </div>
       </div>
