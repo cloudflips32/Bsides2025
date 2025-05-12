@@ -29,19 +29,19 @@ const Navbar = () => {
             <Link href="/schedule" className="text-black dark:text-white hover:text-purple-700">
               Schedule
             </Link>
-            <Link href="/speakers" className="text-black dark:text-white hover:text-purple-700">
+            <Link href="/speakers" className="text-black dark:text-white hidden hover:text-purple-700">
               Speakers
             </Link>
             <Link href="/events" className="text-black dark:text-white hover:text-purple-700">
               Events
             </Link>
-            <Link href="/workshops" className="text-black dark:text-white hover:text-purple-700">
+            <Link href="/workshops" className="text-black dark:text-white hidden hover:text-purple-700">
               Workshops
             </Link>
             <Link href="/volunteer" className="text-black dark:text-white hover:text-purple-700">
               Volunteer
             </Link>
-            <Link href="/tickets" className="text-black dark:text-white hover:text-purple-700">
+            <Link href="/tickets" className="text-black dark:text-white hidden  hover:text-purple-700">
               Tickets
             </Link>
             <button aria-label="Search" className="text-black dark:text-white hover:text-purple-700">
@@ -68,19 +68,19 @@ const Navbar = () => {
             <Link href="/schedule" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Schedule
             </Link>
-            <Link href="/speakers" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/speakers" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Speakers
             </Link>
             <Link href="/events" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Events
             </Link>
-            <Link href="/workshops" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/workshops" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Workshops
             </Link>
             <Link href="/volunteer" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Volunteer
             </Link>
-            <Link href="/tickets" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/tickets" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Tickets
             </Link>
           </div>
