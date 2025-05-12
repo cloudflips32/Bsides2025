@@ -2,6 +2,8 @@
 @import "tw-animate-css";
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
 
 @layer base {
   :root {
@@ -184,4 +186,10 @@
 
 html {
   height: 100%;
+}
+
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
