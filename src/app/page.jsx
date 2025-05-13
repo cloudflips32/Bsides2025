@@ -1,17 +1,13 @@
-import Footer from "./components/footer"
 import Hero from "./components/hero"
 import InfoCards from "./components/info-cards"
-import Navbar from "./components/navbar"
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <main>
+      <main className="max-w-5xl mx-auto my-6 p-4">
         <Hero />
         <InfoCards />
       </main>
-      <Footer />
     </>
   )
 }
