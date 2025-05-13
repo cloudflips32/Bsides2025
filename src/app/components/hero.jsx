@@ -18,7 +18,7 @@ export default function Hero() {
         {/* <img src="/map.png" alt="Map of the event location" className="absolute inset-0 w-full h-full object-cover opacity-50" /> */}
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container flex flex-col md:flex-row items-center mx-auto px-4 relative z-10">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">BSides SWFL 2025</h1>
           <p className="text-xl md:text-2xl text-white">November 7-8, 2025</p>

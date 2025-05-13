@@ -45,7 +45,7 @@ export default function InfoCards() {
             <CardTitle className="text-2xl">We need your Help!</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-700">Come join the fun and help us make 2025 the best BSides SWFL ever. Sign up to be a volunteer today!</p>
+            <p className="text-gray-700">Come join the fun and help us make 2025 the best BSides SWFL convention ever. Sign up to be a volunteer today!</p>
           </CardContent>
           <CardFooter>
             <Link href="/volunteer" className="bg-purple-800 rounded-md hover:bg-purple-500 text-white">
