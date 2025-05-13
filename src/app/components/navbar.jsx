@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="dark:bg-black bg-white shadow-sm">
+    <nav className="bg-black light:bg-white shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-30">
           {/* Logo and Brand */}
@@ -26,25 +26,25 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/schedule" className="text-black dark:text-white hover:text-purple-700">
+            <Link href="/schedule" className="light:text-black text-white hover:text-purple-700">
               Schedule
             </Link>
-            <Link href="/speakers" className="text-black dark:text-white hidden hover:text-purple-700">
+            <Link href="/speakers" className="light:text-black text-white hidden hover:text-purple-700">
               Speakers
             </Link>
-            <Link href="/events" className="text-black dark:text-white hover:text-purple-700">
+            <Link href="/events" className="light:text-black text-white hover:text-purple-700">
               Events
             </Link>
-            <Link href="/workshops" className="text-black dark:text-white hidden hover:text-purple-700">
+            <Link href="/workshops" className="light:text-black text-white hidden hover:text-purple-700">
               Workshops
             </Link>
-            <Link href="/volunteer" className="text-black dark:text-white hover:text-purple-700">
+            <Link href="/volunteer" className="light:text-black text-white hover:text-purple-700">
               Volunteer
             </Link>
-            <Link href="/tickets" className="text-black dark:text-white hidden  hover:text-purple-700">
+            <Link href="/tickets" className="light:text-black text-white hidden  hover:text-purple-700">
               Tickets
             </Link>
-            <button aria-label="Search" className="text-black dark:text-white hover:text-purple-700">
+            <button aria-label="Search" className="light:text-black text-white hover:text-purple-700">
               <Search size={20} />
             </button>
           </div>
