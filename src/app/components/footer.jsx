@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Linkedin} from "lucide-react"
+import { Linkedin } from "lucide-react"
 import { SiX, SiYoutube, SiDiscord, SiFacebook } from '@icons-pack/react-simple-icons'
 
 export default function Footer() {

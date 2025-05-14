@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link href="/schedule" className="light:text-black text-white hover:text-purple-700">
               Schedule
             </Link>
-            <Link href="/speakers" className="light:text-black text-white hidden hover:text-purple-700">
+            <Link href="https://sessionize.com/bsidesswfl2025" className="light:text-black text-white hover:text-purple-700">
               Speakers
             </Link>
             <Link href="/events" className="light:text-black text-white hover:text-purple-700">
@@ -68,7 +68,7 @@ const Navbar = () => {
             <Link href="/schedule" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Schedule
             </Link>
-            <Link href="/speakers" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="https://sessionize.com/bsidesswfl2025" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Speakers
             </Link>
             <Link href="/events" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
