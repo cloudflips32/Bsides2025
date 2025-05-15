@@ -14,8 +14,6 @@ export default function Hero() {
         <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-white rounded-full opacity-70"></div>
         <div className="absolute bottom-1/4 left-1/2 w-2 h-2 bg-white rounded-full opacity-70"></div>
 
-        {/* Removed Map Image from background */}
-        {/* <img src="/map.png" alt="Map of the event location" className="absolute inset-0 w-full h-full object-cover opacity-50" /> */}
       </div>
 
       <div className="container flex flex-col md:flex-row items-center mx-auto px-4 relative z-10">
