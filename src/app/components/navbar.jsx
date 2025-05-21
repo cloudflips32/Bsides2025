@@ -68,19 +68,19 @@ const Navbar = () => {
             <Link href="/schedule" className="text-gray-700 bg-linear-65 from-yellow-50 via-yellow-300 to-rose-900 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Schedule
             </Link>
-            <Link href="/speakers" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/speakers" className="text-gray-700 bg-linear-65 from-yellow-50 via-yellow-300 to-rose-900 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Speakers
             </Link>
-            <Link href="/events" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/events" className="text-gray-700 bg-linear-65 from-yellow-50 via-yellow-300 to-rose-900 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Events
             </Link>
-            <Link href="/workshops" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/workshops" className="text-gray-700 bg-linear-65 from-yellow-50 via-yellow-300 to-rose-900 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Workshops
             </Link>
-            <Link href="/volunteer" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/volunteer" className="text-gray-700 bg-linear-65 from-yellow-50 via-yellow-300 to-rose-900 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Volunteer
             </Link>
-            <Link href="/tickets" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/tickets" className="text-gray-700 bg-linear-65 from-yellow-50 via-yellow-300 to-rose-900 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Tickets
             </Link>
           </div>
