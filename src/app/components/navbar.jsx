@@ -65,7 +65,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white py-4 px-4 shadow-md">
           <div className="flex flex-col space-y-4">
-            <Link href="/schedule" className="text-gray-700 bg-linear-65 from-rose-900 to-yellow-300 hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/schedule" className="text-gray-700 bg-linear-65 from-rose-900 via-yellow-300 to-yellow-50 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Schedule
             </Link>
             <Link href="/speakers" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
