@@ -57,7 +57,7 @@ const CallForSpeakersModal = ({ isOpen, onClose }) => {
 
             <div className="text-center">
               <button className="bg-teal-600 text-white font-bold py-3 px-8 rounded-lg shadow-md hover:bg-teal-700 transition-colors duration-200 w-full md:w-auto">
-                Submit a session
+                Become a Speaker!
               </button>
             </div>
           </div>
