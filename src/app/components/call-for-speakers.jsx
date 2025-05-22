@@ -19,7 +19,7 @@ const CallForSpeakersModal = ({ isOpen, onClose }) => {
             <div className="flex justify-between items-center mb-6">
               <h1 className="text-2xl font-semibold text-gray-800">Call for Speakers</h1>
               <span className="bg-green-100 text-green-700 text-sm font-medium px-3 py-1 rounded-full">
-                open, 4 months left
+                4 months left
               </span>
             </div>
 
