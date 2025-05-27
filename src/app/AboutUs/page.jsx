@@ -5,12 +5,9 @@ export default function AboutUs() {
  <div className= "relative 
 bg-gradient-to-r from-purple-800 via-purple-400 to-blue-500 
 py-24 md:py-30">
-<div class="flex">
- {/*Decorative elements*/}
-	<div className="bg-orange-400"></div>
-	<div className="bg-yellow-400"></div>
-	<div className="bg-purple-400"></div>
-</div>
+<ul>
+	<li className="bg-orange-400">This is text</li>
+</ul>
 </div>
 </main>
 </>)
