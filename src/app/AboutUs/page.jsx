@@ -11,10 +11,20 @@ py-24 md:py-30">
 	<div className="absolute top-3/4 left-4/6 w-20 h-20 bg-orange-400 rounded-full opacity-20"></div>
 {/* Sparkles */}
 <div className="absolute top-5/6 left-2/3 w-2 h-2 bg-white rounded-full opacity-70"></div>
-</div>
 <div className="absolute bottom-1/4 left-2/3 w-2 h-2 bg-white rounded-full opacity-70"></div>
 <div className="absolute top-1/6 left-1/3 w-2 h-2 bg-white rounded-full opacity-70"></div>
 {/*Decorative Element End*/}
+<div>
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum
+Lorem ipsum Lorem Ipsum</div>
+</div>
 </main>
 </>)
 }
