@@ -6,7 +6,10 @@ export default function AboutUs() {
 bg-gradient-to-r from-purple-800 via-purple-400 to-blue-500 
 py-24 md:py-30">
 <ul>
-	<li className=" bg-orange-400"><p className="text-6xl">Header</p><p>subject material</p></li>
+	<li className="flex flex-row bg-orange-400 justify-between space-x-8">
+		<p className="text-6xl">Header</p>
+		<p className="flex-1">This should be text that we can see as a main point of the header</p>
+	</li>
 </ul>
 </div>
 </main>
