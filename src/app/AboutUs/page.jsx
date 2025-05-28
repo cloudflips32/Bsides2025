@@ -6,7 +6,7 @@ export default function AboutUs() {
 bg-gradient-to-r from-purple-800 via-purple-400 to-blue-500 
 py-24 md:py-30">
 <ul>
-	<li className="bg-orange-400">Header</li>
+	<li className="text-4xl bg-orange-400">Header</li>
 </ul>
 </div>
 </main>
