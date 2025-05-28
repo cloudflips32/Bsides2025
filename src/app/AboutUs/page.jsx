@@ -8,7 +8,7 @@ py-24 md:py-30">
 <ul>
 	<li className="flex flex-row bg-orange-400 justify-between space-x-8">
 		<p className="text-6xl">Header</p>
-		<p className="flex-1">This should be text that we can see as a main point of the header</p>
+		<p className="flex-1">This should be text that we can see as a main point of the header. The rest of the text is just filler text to see how word wrapping works on this element, so enjoy the long text</p>
 	</li>
 </ul>
 </div>
