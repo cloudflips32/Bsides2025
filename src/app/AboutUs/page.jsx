@@ -7,7 +7,7 @@ export default function AboutUs() {
 <ul>
 	<li className="flex flex-row justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<p className="text-4xl">About BSides SWFL</p>
-		<p className="flex-1"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a>Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p>
+		<p className="flex-1"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p>
 	</li>
 	<li className="flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<p className="text-4xl">Our Mission</p>
