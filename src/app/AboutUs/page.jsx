@@ -7,10 +7,14 @@ bg-gradient-to-r from-purple-800 via-purple-400 to-blue-500
 py-24 md:py-30">
 <ul>
 	<li className="flex flex-row justify-between space-x-8 bg-gradient-to-r from-orange-300  via-orange-400 to-orange-500">
-		<p className="text-6xl">About Us</p>
+		<p className="text-6xl">About BSides SWFL</p>
 		<p className="flex-1"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a communtiy-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a>Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p>
 	</li>
-	
+		<li className="flex flex-row justify-between space-x-8 bg-gradient-to-r from-orange-300  via-orange-400 to-orange-500">
+		<p className="text-6xl">Our Mission</p>
+		<p className="flex-1">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barries to entry, uplifting new voices, and creating opportunities to grow and give back to the community.</p>
+	</li>
+		
 </ul>
 </div>
 </main>
