@@ -15,7 +15,7 @@ const CallForSpeakersModal = ({ isOpen, onClose }) => {
           &times;
         </button>
         <div className="w-full h-full flex flex-col md:flex-row md:items-center md:justify-between overflow-scroll">
-          <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 w-full max-w-2xl">
+          <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 rounded-lg shadow-lg p-6 md:p-8 w-full max-w-2xl">
             <div className="flex justify-between items-center mb-6">
               <h1 className="text-2xl font-semibold text-gray-800">Call for Speakers</h1>
               <span className="bg-green-100 text-green-700 text-sm font-medium px-3 py-1 rounded-full">
