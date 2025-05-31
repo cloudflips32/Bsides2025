@@ -40,7 +40,7 @@ export default function Events() {
       description: 'Hear from industry professionals about career paths and opportunities in cybersecurity.'
     }
   ]
-  
+
   return (
     <>
       <main className="max-w-5xl mx-auto my-6 p-4">

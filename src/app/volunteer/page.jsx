@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Volunteer() {
   const [formData, setFormData] = useState({
-    fullName: '',
-    email: '',
-    phone: '',
-    interests: '',
-    availability: '',
+    fullName: "",
+    email: "",
+    phone: "",
+    interests: "",
+    availability: "",
   });
 
   const handleChange = (e) => {
@@ -22,23 +22,23 @@ export default function Volunteer() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // For now, just log the form data to the console
-    console.log('Volunteer form submitted:', formData);
-    alert('Thank you for your interest in volunteering! We will get back to you soon.');
+    console.log("Volunteer form submitted:", formData);
+    alert("Thank you for your interest in volunteering! We will get back to you soon.");
     // Reset form
     setFormData({
-      fullName: '',
-      email: '',
-      phone: '',
-      interests: '',
-      availability: '',
+      fullName: "",
+      email: "",
+      phone: "",
+      interests: "",
+      availability: "",
     });
   };
 
   return (
     <>
-      <main className='container mx-auto  p-4'>
-        <h1 className='text-3xl font-bold mb-4 mt-4 text-center'>Volunteer</h1>
-        <form onSubmit={handleSubmit} className="max-w-xl mt-6 mx-auto my-6 mb-20">
+      <main className="container mx-auto p-4">
+        <h1 className="text-3xl font-bold mb-4 mt-4 text-center">Volunteer</h1>
+        <form onSubmit={handleSubmit} className="max-w-xl mt-6 mx-auto my-6 mb-24 md:mb-28">
           <div className="mb-4">
             <label htmlFor="fullName" className="block mb-1 font-semibold text-gray-700">
               Full Name <span className="text-red-500">*</span>
@@ -106,11 +106,11 @@ export default function Volunteer() {
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
             />
             <button
-            type="submit"
-            className="bg-purple-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-purple-700 transition-colors duration-300"
-          >
-            Submit
-          </button>
+              type="submit"
+              className="bg-purple-600 text-white px-6 py-3 rounded-md mt-4 font-semibold hover:bg-purple-700 transition-colors duration-300"
+            >
+              Submit
+            </button>
           </div>
         </form>
       </main>
