@@ -2,7 +2,7 @@ import Hero from "../components/hero"
 export default function AboutUs() {
  return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
 {/*Background box everything sits on*/}
- <div className= "relative  md:py-30">
+ <div className= "hidden md:block relative  md:py-30">
 <h1 className="text-4xl text-center">About Us</h1>
 <ul>
 	<li className="p-4 flex flex-row justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
@@ -29,10 +29,12 @@ export default function AboutUs() {
 		<div className="text-center justify-center"><p className="truncate text-4xl">Why It Matters</p></div>
 		<div className="max-w-180  text-center justify-center"><p className="overflow-hidden truncate flex-1">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p></div>
 	</li>
-{/*Mobile side*/}	
-	<div className="visible md:invisible">
-	this should be invisible</div>
 </ul>
+</div>
+{/*Mobile side*/}	
+ <div className= "visble md:block relative  md:py-30">
+<h1 className="text-4xl text-center">About Us</h1>
+	
 </div>
 </main>
 </>)
