@@ -38,6 +38,9 @@ const Navbar = () => {
             <Link href="/workshops" className="light:text-black text-white hidden hover:text-purple-700">
               Workshops
             </Link>
+            <Link href="/sponsors" className="light:text-black text-white hover:text-purple-700">
+              Sponsors
+            </Link>
             <Link href="/volunteer" className="light:text-black text-white hover:text-purple-700">
               Volunteer
             </Link>
@@ -76,6 +79,9 @@ const Navbar = () => {
             </Link>
             <Link href="/workshops" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Workshops
+            </Link>
+            <Link href="/sponsors" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+              Sponsors
             </Link>
             <Link href="/volunteer" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Volunteer

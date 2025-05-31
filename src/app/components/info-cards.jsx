@@ -9,7 +9,7 @@ export default function InfoCards() {
         {/* Sponsors Card */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl">Call for Sponsors</CardTitle>
+            <CardTitle className="text-2xl">Call For Sponsors</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-gray-700 text-justify">
@@ -18,7 +18,9 @@ export default function InfoCards() {
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="bg-purple-800 rounded-md hover:bg-purple-500 text-white">2025 Sponsor Kit</Button>
+            <Link href="/sponsors" className="bg-purple-800 rounded-md hover:bg-purple-500 text-white">
+              <Button className="bg-purple-800 rounded-md hover:bg-purple-500 text-white">2025 Sponsor Kit</Button>
+            </Link>
           </CardFooter>
         </Card>
 
@@ -40,9 +42,9 @@ export default function InfoCards() {
         </Card> */}
 
         {/* Volunteer Card */}
-        <Card>
+        <Card className="mb-8">
           <CardHeader>
-            <CardTitle className="text-2xl">We need your Help!</CardTitle>
+            <CardTitle className="text-2xl">We Need Your Help!</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-gray-700">Come join the fun and help us make 2025 the best BSides SWFL convention ever. Sign up to be a volunteer today!</p>
