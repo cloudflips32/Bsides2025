@@ -32,7 +32,7 @@ export default function AboutUs() {
 </ul>
 </div>
 {/*Mobile side*/}	
- <div className= "visble md:block relative  md:py-30">
+ <div className= "visible sm:block md:invisible relative  md:py-30">
 <h1 className="text-4xl text-center">About Us</h1>
 	
 </div>
