@@ -7,7 +7,7 @@ export default function InfoCards() {
     <div className="container mx-auto px-4 py-16 mb-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Sponsors Card */}
-        <Card>
+        <Card className="mb-8">
           <CardHeader>
             <CardTitle className="text-2xl">Call For Sponsors</CardTitle>
           </CardHeader>
