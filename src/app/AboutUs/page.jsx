@@ -7,9 +7,12 @@ const [AboutUs, SetAboutUs] = useState(false);
 const [OurMission, SetOurMission] = useState(false);
 const [WhatToExpect, SetWhatToExpect] = useState(false);
 const [WhyItMatters, SetWhyItMatters] = useState(false);
-const toggleAboutUs = () => {
-SetAboutUs(!AboutUs);
+//On Click Functions, changes the state
+const toggleAboutUs = () => { SetAboutUs(!AboutUs);
 }
+const toggleOurMission = () => { SetOurMission(!OurMission)};
+const toggleOurWhatToExpect = () => { SetWhatToExpect(!WhatToExpect};
+const toggleWhyItMatters = () => { SetWhyItMatters(!WhyItMatters)};
 return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
 {/*Background box everything sits on*/}
  <div className= "hidden md:block relative  md:py-30">
