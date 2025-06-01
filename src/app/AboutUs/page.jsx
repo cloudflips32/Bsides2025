@@ -1,5 +1,7 @@
 import Hero from "../components/hero"
+import { useState } from "react";
 export default function AboutUs() {
+let AboutMeToggled = false;
  return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
 {/*Background box everything sits on*/}
  <div className= "hidden md:block relative  md:py-30">
