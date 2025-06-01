@@ -35,9 +35,9 @@ export default function AboutUs() {
  <div className= "visible sm:block md:invisible relative  md:py-30">
 <h1 className="text-4xl text-center">About Us</h1>
 <ul>
-<li className="p-4 flex flex-row justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
+<li className="p-4 flex flex-col justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div className="text-center justify-center"><p className="text-4xl">About BSides SWFL</p></div>
-	<div><p className="overflow-hidden truncate max-w-180 justify-center"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p></div>	
+	<div><p className="overflow-hidden truncate max-h-180 justify-center"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p></div>	
 	</li>
 </ul>	
 </div>
