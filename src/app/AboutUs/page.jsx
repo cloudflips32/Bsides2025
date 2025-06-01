@@ -25,7 +25,9 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleOurMission} className="text-center justify-center"><p className="text-4xl">Our Mission</p></div>
 	{OurMission && (
-	<div className="max-w-180 justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barriers to entry, uplifting new voices, and creating opportunities to grow and give back to the community.</p></div>)}
+		<div className="max-w-180 justify-center"><p className="max-w-180 flex-1">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barriers to entry, uplifting new voices, and creating opportunities to grow and give back to the community.</p></div>)}
+	{!OurMission && (
+		<div className="max-w-180 justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barriers to entry, uplifting new voices, and creating opportunities to grow and give back to the community.</p></div>)}
 	</li>	
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleWhatToExpect} className="text-center justify-center"><p className="text-4xl">What to Expect</p></div>
