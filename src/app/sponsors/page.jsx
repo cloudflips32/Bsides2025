@@ -92,17 +92,9 @@ const SponsorsPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
       {/* Header */}
-      <div className="bg-gradient-to-r from-purple-800 via-purple-400 to-blue-500 py-16 relative overflow-hidden">
+      <div className="wrapper py-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-transparent"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
-          <div className="flex justify-center mb-6">
-            <div className="p-4 bg-white/10 rounded-full backdrop-blur-sm border border-orange-300/30">
-              <Shield size={48} className="text-orange-200" />
-            </div>
-          </div>
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-white via-orange-200 to-amber-200 bg-clip-text text-transparent">
-            BSides SWFL 2025
-          </h1>
           <h2 className="text-3xl font-semibold mb-6 text-orange-200">Our Amazing Sponsors</h2>
           <p className="text-xl text-cyan-100 max-w-3xl mx-auto leading-relaxed">
             Southwest Florida's greatest cybersecurity conference is made possible by our incredible sponsors.
@@ -231,7 +223,7 @@ const SponsorsPage = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="bg-gradient-to-r from-purple-800 via-purple-400 to-blue-500 text-white py-16 relative">
+      <div className="wrapper text-white py-16 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-3xl font-bold mb-6">Interested in Sponsoring?</h2>
