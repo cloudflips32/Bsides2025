@@ -1,12 +1,13 @@
-import Hero from "../components/hero"
+"use client";
+import Hero from "../components/hero";
 import { useState } from "react";
 export default function AboutUs() {
 //expanded toggles
-const [AboutUs, SetAboutUs] = UseState(false);
-const [OurMission, SetOurMission] = UseState(false);
-const [WhatToExpect, SetWhatToExpect] = UseState(false);
-const [WhyItMatters, SetWhyItMatters] = UseState(false);
- return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
+const [AboutUs, SetAboutUs] = useState(false);
+const [OurMission, SetOurMission] = useState(false);
+const [WhatToExpect, SetWhatToExpect] = useState(false);
+const [WhyItMatters, SetWhyItMatters] = useState(false); 
+return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
 {/*Background box everything sits on*/}
  <div className= "hidden md:block relative  md:py-30">
 <h1 className="text-4xl text-center">About Us</h1>
@@ -43,8 +44,11 @@ const [WhyItMatters, SetWhyItMatters] = UseState(false);
 <ul>
 <li className="p-4 flex flex-col justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div className="text-center justify-center"><p className="text-4xl">About BSides SWFL</p></div>
+	{!AboutUs && (
 	<div><p className="overflow-hidden truncate max-h-180 justify-center"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p></div>	
-	</li>
+)
+	}
+			</li>
 </ul>	
 </div>
 </main>
