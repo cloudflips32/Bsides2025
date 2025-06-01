@@ -55,9 +55,12 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 		<div onClick={toggleAboutUs} className="text-center justify-center"><p className="text-4xl">About BSides SWFL</p></div>
 	{AboutUs && (
 	<div><p className="overflow-hidden truncate max-h-180 justify-center"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p></div>	
-)
-	}
-			</li>
+)}</li>
+
+<li className="p-4 flex flex-col justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
+		<div onClick={toggleOurMission} className="text-center justify-center"><p className="turncate text-4xl">Our Mission</p></div>
+	{OurMission && (
+	<div><p className="overflow-hidden truncate max-h-180 justify-center">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barriers to entry, uplifting new voices, and creating opportunities to grow and give back to the community</p></div>)}</li>
 </ul>	
 </div>
 </main>
