@@ -6,7 +6,10 @@ export default function AboutUs() {
 const [AboutUs, SetAboutUs] = useState(false);
 const [OurMission, SetOurMission] = useState(false);
 const [WhatToExpect, SetWhatToExpect] = useState(false);
-const [WhyItMatters, SetWhyItMatters] = useState(false); 
+const [WhyItMatters, SetWhyItMatters] = useState(false);
+const toggleAboutUs = () => {
+SetAboutUs(!AboutUs);
+}
 return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
 {/*Background box everything sits on*/}
  <div className= "hidden md:block relative  md:py-30">
@@ -43,8 +46,8 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 <h1 className="text-4xl text-center">About Us</h1>
 <ul>
 <li className="p-4 flex flex-col justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
-		<div className="text-center justify-center"><p className="text-4xl">About BSides SWFL</p></div>
-	{!AboutUs && (
+		<div onClick={toggleAboutUs} className="text-center justify-center"><p className="text-4xl">About BSides SWFL</p></div>
+	{AboutUs && (
 	<div><p className="overflow-hidden truncate max-h-180 justify-center"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p></div>	
 )
 	}
