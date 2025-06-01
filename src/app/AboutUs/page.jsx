@@ -24,11 +24,13 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 	</li>
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleOurMission} className="text-center justify-center"><p className="text-4xl">Our Mission</p></div>
-		<div className="max-w-180 justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barriers to entry, uplifting new voices, and creating opportunities to grow and give back to the community.</p></div>
+	{OurMission && (
+	<div className="max-w-180 justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Our mission is to provide a welcoming, inclusive environment where people of all skill levels can connect, share knowledge, and collaborate on solutions to today's cybersecurity challenges. We believe in lowering barriers to entry, uplifting new voices, and creating opportunities to grow and give back to the community.</p></div>)}
 	</li>	
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleWhatToExpect} className="text-center justify-center"><p className="text-4xl">What to Expect</p></div>
-		<div className="text-center justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Bsides SWFL is a conference built by the community, for the community. We offer:</p> 
+{WhatToExpect && (		
+<div className="text-center justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Bsides SWFL is a conference built by the community, for the community. We offer:</p> 
 		<ul className="text-left indent-3 list-disc">
 			<li><strong>Engaging Talks</strong> on timely and relevant cybersecurity topics.</li>
 			<li><strong>Interactive Villages</strong> and hands-on activities.</li>
@@ -36,11 +38,12 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 			<li><strong>Opportunities to Connect</strong> with peers, mentors, and industry experts.</li>
 		</ul>
 		<p className="overflow-hidden truncate max-w-180 flex-1">Whether you're just beginning your journey or you've been in the industry for years, BSides SWFL is a place where you can share, learn, and be part of something meaningful.
-		</p></div>
+		</p></div>)}
 	</li>				
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleWhyItMatters} className="text-center justify-center"><p className="truncate text-4xl">Why It Matters</p></div>
-		<div className="max-w-180  text-center justify-center"><p className="overflow-hidden truncate flex-1">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p></div>
+{WhyItMatters && (		
+<div className="max-w-180  text-center justify-center"><p className="overflow-hidden truncate flex-1">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p></div>)}
 	</li>
 </ul>
 </div>
