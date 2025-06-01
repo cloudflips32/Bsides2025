@@ -48,7 +48,7 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 	{WhyItMatters && (		
 		<div className="max-w-180  text-center justify-center"><p className="flex-1">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p></div>)}
 	{!WhyItMatters && (		
-		<div className="max-w-180  text-center justify-center"><p className="overflow-hidden truncate flex-1">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p></div>)}
+		<div className="max-w-160  text-center justify-center"><p className="overflow-hidden truncate flex-1">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p></div>)}
 	</li>
 </ul>
 </div>
