@@ -31,15 +31,16 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 	</li>	
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleWhatToExpect} className="text-center justify-center"><p className="text-4xl">What to Expect</p></div>
+{!WhatToExpect && (<div className="max-w-180"><p className="overflow-hidden truncate max-h-180 justify-center">BSides SWFL offers <strong>Engaging Talks, Interactive Villages, Workshops, Opportunites to connect</strong>, etc. Whether You're just beginning your journey or you've been in the industry for years, BSides SWFL is a place where you can share, learn, and be part of something meaningul.</p></div>)}
 {WhatToExpect && (		
-<div className="text-center justify-center"><p className="overflow-hidden truncate max-w-180 flex-1">Bsides SWFL is a conference built by the community, for the community. We offer:</p> 
+<div className="text-center justify-center"><p className="max-w-180 flex-1">Bsides SWFL is a conference built by the community, for the community. We offer:</p> 
 		<ul className="text-left indent-3 list-disc">
 			<li><strong>Engaging Talks</strong> on timely and relevant cybersecurity topics.</li>
 			<li><strong>Interactive Villages</strong> and hands-on activities.</li>
 			<li><strong>Workshops</strong> that let attendees apply what they learn.</li>
 			<li><strong>Opportunities to Connect</strong> with peers, mentors, and industry experts.</li>
 		</ul>
-		<p className="overflow-hidden truncate max-w-180 flex-1">Whether you're just beginning your journey or you've been in the industry for years, BSides SWFL is a place where you can share, learn, and be part of something meaningful.
+		<p className="max-w-180 flex-1">Whether you're just beginning your journey or you've been in the industry for years, BSides SWFL is a place where you can share, learn, and be part of something meaningful.
 		</p></div>)}
 	</li>				
 	<li className="p-4 flex flex-row justify-between space-x-8 mt-6 border-solid border-1 rounded-xl shadow-sm border-gray-950">
