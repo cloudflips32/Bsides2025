@@ -92,7 +92,7 @@ const SponsorsPage = () => {
   return (
     <div className="min-h-screen wrapper-4">
       {/* Header */}
-      <div className="wrapper-2 py-16 relative overflow-hidden">
+      <div className="wrapper-2 md:wrapper-6 pt-16 md:pt-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-transparent"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-3xl font-semibold mb-6 text-orange-200">Our Amazing Sponsors</h2>
@@ -125,7 +125,7 @@ const SponsorsPage = () => {
 
       {/* Photo Collage */}
 
-      <div className="bg-transparent outline-0 py-12">
+      <div className="bg-transparent outline-0 py-12 md:py-24">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
             <div className="col-span-1 row-span-2">
@@ -223,7 +223,7 @@ const SponsorsPage = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="wrapper-2 text-white py-16 relative">
+      <div className="wrapper-2 md:wrapper-6 text-white pt-16 md:pt-32 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-3xl font-bold mb-6">Interested in Sponsoring?</h2>
