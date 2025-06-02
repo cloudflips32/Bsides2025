@@ -4,7 +4,7 @@ export default function SchedulePage() {
   // Sample schedule data
   const scheduleData = [
     {
-      day: "Day 1 - November 13th",
+      day: "Day 1 - November 14th",
       events: [
         { time: "8:00 AM - 9:00 AM", title: "Training Session - Coming Soon", location: "Main Hall" },
         { time: "9:00 AM - 10:00 AM", title: "Training Session - Coming Soon", location: "Auditorium" },
@@ -19,7 +19,7 @@ export default function SchedulePage() {
       ],
     },
     {
-      day: "Day 2 - November 14th",
+      day: "Day 2 - November 15th",
       events: [
         { time: "8:30 AM - 9:00 AM", title: "Conference Session - Coming Soon", location: "Main Hall" },
         { time: "9:00 AM - 10:00 AM", title: "Conference Session - Coming Soon", location: "Auditorium" },
