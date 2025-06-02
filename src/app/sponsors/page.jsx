@@ -90,9 +90,9 @@ const SponsorsPage = () => {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
+    <div className="min-h-screen wrapper-4">
       {/* Header */}
-      <div className="wrapper py-16 relative overflow-hidden">
+      <div className="wrapper-2 py-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-transparent"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-3xl font-semibold mb-6 text-orange-200">Our Amazing Sponsors</h2>
@@ -132,42 +132,42 @@ const SponsorsPage = () => {
               <img
                 src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop"
                 alt="Team meeting discussion"
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg hover:shadow-lg transition-shadow duration-300 shadow-xl"
               />
             </div>
             <div className="col-span-1">
               <img
                 src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                 alt="Cybersecurity coding"
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg hover:shadow-lg transition-shadow duration-300 shadow-xl"
               />
             </div>
             <div className="col-span-1">
               <img
                 src="https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                 alt="Conference presentation"
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg hover:shadow-lg transition-shadow duration-300 shadow-xl"
               />
             </div>
             <div className="col-span-1 row-span-2 hidden lg:block">
               <img
                 src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop"
                 alt="Technology workspace"
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg hover:shadow-lg transition-shadow duration-300 shadow-xl"
               />
             </div>
             <div className="col-span-1">
               <img
                 src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                 alt="Network security monitoring"
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg hover:shadow-lg transition-shadow duration-300 shadow-xl"
               />
             </div>
             <div className="col-span-1">
               <img
                 src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                 alt="Team collaboration"
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg hover:shadow-lg transition-shadow duration-300 shadow-xl"
               />
             </div>
           </div>
@@ -223,7 +223,7 @@ const SponsorsPage = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="wrapper text-white py-16 relative">
+      <div className="wrapper-2 text-white py-16 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-3xl font-bold mb-6">Interested in Sponsoring?</h2>

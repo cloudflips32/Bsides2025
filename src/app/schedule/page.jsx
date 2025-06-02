@@ -4,7 +4,7 @@ export default function SchedulePage() {
   // Sample schedule data
   const scheduleData = [
     {
-      day: "Day 1 - November 7th",
+      day: "Day 1 - November 13th",
       events: [
         { time: "8:00 AM - 9:00 AM", title: "Training Session - Coming Soon", location: "Main Hall" },
         { time: "9:00 AM - 10:00 AM", title: "Training Session - Coming Soon", location: "Auditorium" },
@@ -19,7 +19,7 @@ export default function SchedulePage() {
       ],
     },
     {
-      day: "Day 2 - November 8th",
+      day: "Day 2 - November 14th",
       events: [
         { time: "8:30 AM - 9:00 AM", title: "Conference Session - Coming Soon", location: "Main Hall" },
         { time: "9:00 AM - 10:00 AM", title: "Conference Session - Coming Soon", location: "Auditorium" },
@@ -37,18 +37,18 @@ export default function SchedulePage() {
 
   return (
     <>
-      <div className="container opacity-90 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 mx-auto px-4 py-12 justify-center items-center">
-        <h1 className="text-3xl font-bold mb-8 text-center">Conference Schedule</h1>
+      <div className="container md:w-4xl opacity-90 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 mx-auto px-4 py-12 justify-center items-center">
+        <h1 className="text-3xl font-bold mb-8 text-center text-teal-700">Conference Schedule</h1>
 
-        <div className="space-y-12 mx-auto w-[90%] mb-20">
+        <div className="space-y-12 wrapper-4 mx-auto w-[90%] mb-20">
           {scheduleData.map((day, index) => (
             <div key={index}>
-              <h2 className="text-2xl text-center font-semibold mb-6">{day.day}</h2>
-              <div className="grid md:grid-cols-2 sm:grid-cols-1 md:gap-8 gap-4">
+              <h2 className="text-2xl text-center font-semibold mb-6 text-cyan-400">{day.day}</h2>
+              <div className="grid md:grid-cols-2 wrapper-4 sm:grid-cols-1 md:gap-8 gap-4 mx-auto">
                 {day.events.map((event, eventIndex) => (
-                  <Card key={eventIndex} className={`max-w-md`}>
+                  <Card key={eventIndex} className={`max-w-lg`}>
                     <CardHeader className="pb-2">
-                      <CardTitle className="text-lg">{event.title}</CardTitle>
+                      <CardTitle className="text-lg text-teal-700">{event.title}</CardTitle>
                       <CardDescription>{event.time}</CardDescription>
                     </CardHeader>
                     <CardContent>
