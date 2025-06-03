@@ -15,7 +15,7 @@ const toggleWhatToExpect = () => { SetWhatToExpect(!WhatToExpect)};
 const toggleWhyItMatters = () => { SetWhyItMatters(!WhyItMatters)};
 return (<> <main className="max-w-5xl mx-auto my-6 p-4"> 
 {/*Background box everything sits on*/}
- <div className= "wrapper  md:block relative  md:py-30">
+ <div className="hidden wrapper  md:block relative  md:py-30">
 <h1 className="text-4xl text-center">About Us</h1>
 <ul>
 	<li className="bg-gradient-to-tl from-orange-0 via-purple-200 to-orange-300 p-4 flex flex-row justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
