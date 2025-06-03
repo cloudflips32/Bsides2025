@@ -37,16 +37,16 @@ export default function SchedulePage() {
 
   return (
     <>
-      <div className="container mx-auto px-4 py-12 justify-center items-center">
+      <div className="container opacity-90 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 mx-auto px-4 py-12 justify-center items-center">
         <h1 className="text-3xl font-bold mb-8 text-center">Conference Schedule</h1>
 
-        <div className="space-y-12 mx-auto w-3/4">
+        <div className="space-y-12 mx-auto w-[90%] mb-20">
           {scheduleData.map((day, index) => (
             <div key={index}>
-              <h2 className="text-2xl font-semibold mb-6">{day.day}</h2>
+              <h2 className="text-2xl text-center font-semibold mb-6">{day.day}</h2>
               <div className="grid md:grid-cols-2 sm:grid-cols-1 md:gap-8 gap-4">
                 {day.events.map((event, eventIndex) => (
-                  <Card key={eventIndex}>
+                  <Card key={eventIndex} className={`max-w-md`}>
                     <CardHeader className="pb-2">
                       <CardTitle className="text-lg">{event.title}</CardTitle>
                       <CardDescription>{event.time}</CardDescription>
