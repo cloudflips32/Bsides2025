@@ -87,12 +87,12 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
 		</p>
 	</div>)}
 	</li>
-	<li className="p-4 flex flex-col justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
+	<li className="mb-20 -4 flex flex-col justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleWhyItMatters} className="text-center justify-center"><p className="turncate text-4xl">Why It Matters</p></div>
 	{WhyItMatters == false  && (
 <div><p className="overflow-hidden truncate max-h-180 justify-center">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida</p></div>)}
 	{WhyItMatters && (
-	<div><p className="max-h-180 justify-center">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida</p>
+	<div className="pb-10"><p className="ax-h-180 justify-center">Traditional conferences often come with barriers: cost, exclusivity, or limited speaker slots. BSides flips the script by offering a platform where more voices can be heard, and more people can participate. We're here to celebrate curiosity, encourage growth, and help build a stronger, more resilient security community in Southwest Florida.</p>
 	</div>)}
 	</li>
 </ul>	
