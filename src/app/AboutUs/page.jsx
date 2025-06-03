@@ -18,7 +18,7 @@ return (<> <main className="max-w-5xl mx-auto my-6 p-4">
  <div className= "wrapper  md:block relative  md:py-30">
 <h1 className="text-4xl text-center">About Us</h1>
 <ul>
-	<li className="bg-gradient-to-r from-orange-0 via-orange-200 to-orange-300 p-4 flex flex-row justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
+	<li className="bg-gradient-to-tl from-orange-0 via-orange-200 to-orange-300 p-4 flex flex-row justify-between space-x-8 border-solid border-1 rounded-xl shadow-sm border-gray-950">
 		<div onClick={toggleAboutUs} className="text-center justify-center"><p className="text-4xl">About BSides SWFL</p></div>
 	{!AboutUs && (
 	<div className="max-w-160"><p className="overflow-hidden truncate max-h-120 justify-center"><strong>BSides Southwest Florida (Bsides SWFL) </strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.</p></div>)}
