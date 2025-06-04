@@ -26,6 +26,10 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
+            <Link href="/aboutus" className="light:text-black text-white hover:text-purple-700">
+              About Us
+            </Link>
+
             <Link href="/schedule" className="light:text-black text-white hover:text-purple-700">
               Schedule
             </Link>
@@ -37,6 +41,9 @@ const Navbar = () => {
             </Link>
             <Link href="/workshops" className="light:text-black text-white hidden hover:text-purple-700">
               Workshops
+            </Link>
+            <Link href="/sponsors" className="light:text-black text-white hover:text-purple-700">
+              Sponsors
             </Link>
             <Link href="/volunteer" className="light:text-black text-white hover:text-purple-700">
               Volunteer
@@ -65,6 +72,9 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white py-4 px-4 shadow-md">
           <div className="flex flex-col space-y-4">
+            <Link href="/aboutus" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+              About Us
+            </Link>
             <Link href="/schedule" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Schedule
             </Link>
@@ -77,10 +87,13 @@ const Navbar = () => {
             <Link href="/workshops" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Workshops
             </Link>
+            <Link href="/sponsors" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
+              Sponsors
+            </Link>
             <Link href="/volunteer" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMenu}>
               Volunteer
             </Link>
-            <Link href="/tickets" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
+            <Link href="/tickets" className="text-gray-700  hidden hover:text-purple-700 py-2" onClick={toggleMenu}>
               Tickets
             </Link>
           </div>

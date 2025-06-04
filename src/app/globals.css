@@ -193,3 +193,76 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+.wrapper {
+  height: 80vh;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(126, 10, 141, 0.8),
+      rgba(149, 82, 181, 0.8),
+      rgba(70, 133, 205, 0.8)
+    ),
+    url('/bsideslogo.png') repeat center/cover;
+}
+
+.wrapper-2 {
+  height: 64vh;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(126, 10, 141, 0.8),
+      rgba(149, 82, 181, 0.8),
+      rgba(70, 133, 205, 0.8)
+    ),
+    url('/bsideslogo.png') repeat center/cover;
+}
+
+.wrapper-3 {
+  min-height: 100vh;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(255, 251, 235, 0.8),
+      rgba(255, 247, 237, 0.8),
+      rgba(254, 242, 242, 0.8)
+    ),
+    url('https://th.bing.com/th/id/OIP.wsJJgBCfZr4ckXqBLwhAXAHaE7?rs=1&pid=ImgDetMain') repeat center/cover;
+}
+
+.wrapper-4 {
+  min-height: 100vh;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(255, 251, 235, 0.9),
+      rgba(255, 247, 237, 0.9),
+      rgba(254, 242, 242, 0.9)
+    ),
+    url('/bsideslogo.png') repeat-y center/contain;
+}
+
+.wrapper-5 {
+  min-height: 55vh;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(255, 251, 235, 0.9),
+      rgba(255, 247, 237, 0.9),
+      rgba(254, 242, 242, 0.9)
+    ),
+    url('/bsideslogo.png') no-repeat center/contain;
+}
+
+.wrapper-6 {
+  height: 40vh;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(126, 10, 141, 0.8),
+      rgba(149, 82, 181, 0.8),
+      rgba(70, 133, 205, 0.8)
+    ),
+    url('/bsideslogo.png') repeat center/cover;
+}
+

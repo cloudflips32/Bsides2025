@@ -43,11 +43,11 @@ export default function Events() {
 
   return (
     <>
-      <main className="max-w-5xl mx-auto my-6 p-4">
-        <h1 className="text-4xl font-bold mb-8 text-center">Events</h1>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <p>CTF Challenges and Villages Abound!</p>
-          <p>Official Schedule Coming Soon!</p>
+      <main className="max-w-5xl mx-auto p-4 wrapper-4">
+        <h1 className="text-4xl font-bold mb-8 text-center text-teal-700">Events</h1>
+        <section className="grid grid-cols-1 text-center md:grid-cols-2 h-150 gap-6">
+          <p className='text-teal-700'>CTF Challenges and Villages Abound!</p>
+          <p className='text-teal-700'>Official Schedule Coming Soon!</p>
           {/* {events.map(event => (
             <Card key={event.id}>
               <CardHeader>
