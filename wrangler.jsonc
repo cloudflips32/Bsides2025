@@ -1,5 +1,5 @@
 {
-  "name": "worker-name",
+  "name": "bsides2025",
   "compatibility_date": "2025-06-05",
   "main": "src/app/page.jsx"
 }
