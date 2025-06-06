@@ -23,7 +23,7 @@ export default function Hero() {
           <p className="text-md md:text-lg mt-8 text-cyan-100 share-tech-regular ">A major cybersecurity event is coming to Southwest Florida on November 7th and 8th at Florida SouthWestern State College. The first-ever BSides SWFL conference will focus on real-world cybersecurity failures and solutions. Industry experts and students will connect to explore the evolving threats and innovations shaping today’s cyber landscape.</p>
 
           {/* Area to display the map */}
-          <div className="mt-12 flex justify-center">
+          <div className="mt-8 flex justify-center">
             <Image
               src={"/map.png"}
               alt="Map of the event location"
