@@ -10,7 +10,17 @@
 !.yarn/releases
 !.yarn/versions
 .vscode
-.open-next
+.open-next/.build
+.open-next/assets
+.open-next/cache
+.open-next/cloudflare
+.open-next/cloudflare-templates
+.open-next/dynamodb-provider
+.open-next/middleware
+.open-next/server-functions
+
+
+
 
 # testing
 /coverage
