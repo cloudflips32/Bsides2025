@@ -46,7 +46,7 @@ export default function SchedulePage() {
               <h2 className="text-2xl text-center font-semibold mb-6 text-cyan-400">{day.day}</h2>
               <div className="grid md:grid-cols-2 wrapper-4 sm:grid-cols-1 md:gap-8 gap-4 mx-auto">
                 {day.events.map((event, eventIndex) => (
-                  <Card key={eventIndex} className={`max-w-lg`}>
+                  <Card key={eventIndex} className={`max-w-lg opacity-84`}>
                     <CardHeader className="pb-2">
                       <CardTitle className="text-lg text-teal-700">{event.title}</CardTitle>
                       <CardDescription>{event.time}</CardDescription>
