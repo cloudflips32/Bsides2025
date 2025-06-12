@@ -7,14 +7,14 @@ const CallForSpeakersModal = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-      <div className="wrapper bg-blend-dark p-4 rounded-lg mx-auto md:max-w-lg md:w-1/2 md:h-[87vh] md:items-center md:flex-col items-center justify-center shadow-lg w-full h-3/4 relative">
+      <div className="wrapper h-auto bg-blend-dark p-8 my-4 mx-auto md:max-w-lg md:w-1/2 md:h-[95vh] md:items-center md:flex-col items-center justify-center shadow-lg w-full relative overflow-scroll md:overflow-hidden">
         <button
           className="absolute top-2 right-7 text-cyan-600 hover:text-cyan-800 text-4xl"
           onClick={onClose}
         >
           &times;
         </button>
-        <div className="w-full h-full flex flex-col md:flex-row md:items-center md:justify-between overflow-scroll">
+        <div className="m-auto md:h-[78vh] flex flex-col md:flex-row md:items-center md:justify-between rounded-2xl">
           <div className="bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 rounded-lg shadow-lg p-6 md:p-8 w-full max-w-2xl">
             <div className="flex justify-between items-center mb-6">
               <h1 className="text-2xl font-semibold text-teal-700">Call for Speakers</h1>
@@ -52,7 +52,7 @@ const CallForSpeakersModal = ({ isOpen, onClose }) => {
 
                 Become a speaker at the 2025 BSides Cybersecurity Conference at Florida Southwestern State College in Fort Myers!
 
-                We're looking for dynamic presenters to contribute to our event. Share your insights, research, and experiences with a diverse audience of cybersecurity professionals and enthusiasts.</span>
+                We're looking for dynamic presenters to contribute to our event.</span>
             </div>
 
             <div className="text-center">
