@@ -20,7 +20,7 @@ export default function Footer() {
           <Link href="https://www.youtube.com/@BSidesSWFL" className="hover:text-gray-300 text-orange-200" aria-label="Instagram">
             <SiYoutube size={20} />
           </Link>
-          <Link href="https://bsky.app/profile/bsidesswfl.bsky.social%E2%80%AC" className="hover:text-gray-300 text-orange-200" aria-label="BlueSky">
+          <Link href="https://bsky.app/profile/bsidesswfl.bsky.social" className="hover:text-gray-300 text-orange-200" aria-label="BlueSky">
             <SiBluesky size={20} />
           </Link>
           <Link href="https://www.linkedin.com/company/bsides-swfl/" className="hover:text-gray-300 text-orange-200" aria-label="LinkedIn">
