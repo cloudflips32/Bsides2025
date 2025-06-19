@@ -79,35 +79,35 @@ const Navbar = () => {
         <div className="md:hidden bg-black shadow-md">
           <div className="flex flex-col space-y-4 mx-2 bg-black">
             <Link href="/aboutus" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">About Us</p>
+              <p className="ml-2 mb-4">About Us</p>
             </Link>
 
             <Link href="/schedule" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Schedule</p>
+              <p className="ml-2 mb-4">Schedule</p>
             </Link>
 
             <Link href="/speakers" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Speakers</p>
+              <p className="ml-2 mb-4">Speakers</p>
             </Link>
 
             <Link href="/events" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Events</p>
+              <p className="ml-2 mb-4">Events</p>
             </Link>
 
             <Link href="/workshops" className="text-orange-200 hidden hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Workshops</p>
+              <p className="ml-2 mb-4">Workshops</p>
             </Link>
 
             <Link href="/sponsors" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Sponsors</p>
+              <p className="ml-2 mb-4">Sponsors</p>
             </Link>
 
             <Link href="/volunteer" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Volunteer</p>
+              <p className="ml-2 mb-4">Volunteer</p>
             </Link>
 
             <Link href="/tickets" className="text-orange-200  hidden hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
-              <p className="ml-2">Tickets</p>
+              <p className="ml-2 mb-4">Tickets</p>
             </Link>
           </div>
         </div>
