@@ -76,38 +76,38 @@ const Navbar = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white py-4 px-4 shadow-md">
-          <div className="flex flex-col space-y-4">
-            <Link href="/aboutus" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              About Us
+        <div className="md:hidden bg-black shadow-md">
+          <div className="flex flex-col space-y-4 mx-2 bg-black">
+            <Link href="/aboutus" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">About Us</p>
             </Link>
 
-            <Link href="/schedule" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Schedule
+            <Link href="/schedule" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Schedule</p>
             </Link>
 
-            <Link href="/speakers" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Speakers
+            <Link href="/speakers" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Speakers</p>
             </Link>
 
-            <Link href="/events" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Events
+            <Link href="/events" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Events</p>
             </Link>
 
-            <Link href="/workshops" className="text-gray-700 hidden hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Workshops
+            <Link href="/workshops" className="text-orange-200 hidden hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Workshops</p>
             </Link>
 
-            <Link href="/sponsors" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Sponsors
+            <Link href="/sponsors" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Sponsors</p>
             </Link>
 
-            <Link href="/volunteer" className="text-gray-700 hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Volunteer
+            <Link href="/volunteer" className="text-orange-200 hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Volunteer</p>
             </Link>
 
-            <Link href="/tickets" className="text-gray-700  hidden hover:text-purple-700 py-2" onClick={toggleMobileMenu}>
-              Tickets
+            <Link href="/tickets" className="text-orange-200  hidden hover:text-purple-700 bg-black" onClick={toggleMobileMenu}>
+              <p className="ml-2">Tickets</p>
             </Link>
           </div>
         </div>
