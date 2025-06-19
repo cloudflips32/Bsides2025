@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Linkedin, NotebookPen, Contact2 } from "lucide-react"
-import { SiX, SiYoutube, SiDiscord, SiFacebook, SiFormstack } from '@icons-pack/react-simple-icons'
+import { SiX, SiYoutube, SiDiscord, SiFacebook, SiFormstack, SiBluesky } from '@icons-pack/react-simple-icons'
 
 export default function Footer() {
   return (
@@ -19,6 +19,9 @@ export default function Footer() {
           </Link>
           <Link href="https://www.youtube.com/@BSidesSWFL" className="hover:text-gray-300 text-orange-200" aria-label="Instagram">
             <SiYoutube size={20} />
+          </Link>
+          <Link href="https://bsky.app/profile/bsidesswfl.bsky.social%E2%80%AC" className="hover:text-gray-300 text-orange-200" aria-label="BlueSky">
+            <SiBluesky size={20} />
           </Link>
           <Link href="https://www.linkedin.com/company/bsides-swfl/" className="hover:text-gray-300 text-orange-200" aria-label="LinkedIn">
             <Linkedin size={20} />
