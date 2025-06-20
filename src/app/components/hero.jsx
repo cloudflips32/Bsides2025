@@ -29,7 +29,7 @@ export default function Hero() {
               alt="Map of the event location"
               width={700}
               height={300}
-              className="w-full h-auto lg:h-[30vh] shadow-lg hover:scale-105 mb-16 transition-transform duration-300"
+              className="w-full h-auto lg:h-[30vh] shadow-lg hover:scale-102 mb-16 transition-transform duration-300"
             />
           </div>
           <p className="text-md md:text-lg text-cyan-100">Join us for two days of insightful talks, hands-on workshops, and networking opportunities with cybersecurity professionals.</p>
