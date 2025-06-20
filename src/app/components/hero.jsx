@@ -16,7 +16,7 @@ export default function Hero() {
 
       </div>
 
-      <div className="container flex flex-col md:flex-row items-center mx-auto px-4 relative z-10 overflow-hidden">
+      <div className="container flex flex-col md:flex-row items-center mx-auto px-4 relative overflow-hidden">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl lg:mt-8 md:mt-4 font-bold text-orange-200">BSides SWFL 2025</h1>
           <p className="text-xl md:text-2xl text-cyan-100 lg:mt-8 mt-4">November 14th & 15th, 2025</p>
