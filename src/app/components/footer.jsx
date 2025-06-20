@@ -5,7 +5,7 @@ import { SiX, SiYoutube, SiDiscord, SiFacebook, SiFormstack, SiBluesky } from '@
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-3 h-[11vh] md:h-[13.5vh] lg:h-[15vh] fixed bottom-0 left-0 right-0 z-50">
+    <footer className="bg-black text-white py-3 h-[11vh] fixed bottom-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center gap-6 mb-4">
           <Link href="https://x.com/BSides_SWFL" className="hover:text-orange-300 hover:scale-110 text-orange-200" aria-label="Twitter">
