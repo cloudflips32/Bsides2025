@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-30">
           <Link href="/" className="flex items-center">
-            <div className="w-40 h-10 rounded-full bg-purple-700 flex items-center justify-center mr-3 opacity-80">
+            <div className="w-40 h-10 rounded-full bg-purple-700 flex items-center hover:scale-102 justify-center mr-3 opacity-80">
               <img src="bsideslogo.png" alt="bsides swfl logo" />
             </div>
           </Link>
