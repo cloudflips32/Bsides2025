@@ -23,19 +23,19 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center space-x-6">
             <Link href="/aboutus" className="light:text-black text-orange-200 hover:text-orange-300 hover:scale-105 italic">
-              <p className="ml-3 my-4 inline-flex"><ScrollIcon size={20} className="mr-2" /> About Us</p>
+              <p className="ml-3 my-4 inline-flex"><ScrollIcon size={20} className="mr-2 blur-[0.75px]" /> About Us</p>
             </Link>
 
             <Link href="/events" className="light:text-black text-orange-200 hover:text-orange-300 hover:scale-105 italic">
-              <p className="ml-3 my-4 inline-flex"><Computer size={20} className="mr-2" /> Events</p>
+              <p className="ml-3 my-4 inline-flex"><Computer size={20} className="mr-2 blur-[0.75px]" /> Events</p>
             </Link>
 
             <Link href="/schedule" className="light:text-black text-orange-200 hover:text-orange-300 hover:scale-105 italic">
-              <p className="ml-3 my-4 inline-flex"><Calendar size={20} className="mr-2" /> Schedule</p>
+              <p className="ml-3 my-4 inline-flex"><Calendar size={20} className="mr-2 blur-[0.75px]" /> Schedule</p>
             </Link>
 
             <Link href="/speakers" className="light:text-black text-orange-200 hover:text-orange-300 hover:scale-105 italic">
-              <p className="ml-3 my-4 inline-flex"><User2 size={20} className="mr-2" /> Speakers</p>
+              <p className="ml-3 my-4 inline-flex"><User2 size={20} className="mr-2 blur-[0.75px]" /> Speakers</p>
             </Link>
 
             <Link href="/workshops" className="light:text-black hidden text-orange-200 hover:text-orange-300 hover:scale-105 italic">
@@ -43,11 +43,11 @@ const Navbar = () => {
             </Link>
 
             <Link href="/sponsors" className="light:text-black text-orange-200 hover:text-orange-300 hover:scale-105 italic">
-              <p className="ml-3 my-4 inline-flex"><Ribbon size={20} className="mr-2" /> Sponsors</p>
+              <p className="ml-3 my-4 inline-flex"><Ribbon size={20} className="mr-2 blur-[0.75px]" /> Sponsors</p>
             </Link>
 
             <Link href="/volunteer" className="light:text-black text-orange-200 hover:text-orange-300 hover:scale-105 italic">
-              <p className="ml-3 my-4 inline-flex"><Handshake size={20} className="mr-2" /> Volunteer</p>
+              <p className="ml-3 my-4 inline-flex"><Handshake size={20} className="mr-2 blur-[0.75px]" /> Volunteer</p>
             </Link>
 
             <Link href="/tickets" className="light:text-black text-orange-200 hidden hover:text-orange-300 hover:scale-105 italic">
@@ -79,19 +79,19 @@ const Navbar = () => {
         <div className="md:hidden bg-black shadow-md">
           <div className="flex flex-col space-y-4 bg-black">
             <Link href="/aboutus" className="text-orange-200 hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
-              <p className="ml-3 my-4 inline-flex"><ScrollIcon size={20} className="mr-3" /> About Us</p>
+              <p className="ml-3 my-4 inline-flex"><ScrollIcon size={20} className="mr-3 blur-[0.75px]" /> About Us</p>
             </Link>
 
             <Link href="/events" className="text-orange-200 hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
-              <p className="ml-3 mb-4 inline-flex"><Computer size={20} className="mr-3" /> Events</p>
+              <p className="ml-3 mb-4 inline-flex"><Computer size={20} className="mr-3 blur-[0.75px]" /> Events</p>
             </Link>
 
             <Link href="/schedule" className="text-orange-200 hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
-              <p className="ml-3 mb-4 inline-flex"><Calendar size={20} className="mr-3" /> Schedule</p>
+              <p className="ml-3 mb-4 inline-flex"><Calendar size={20} className="mr-3 blur-[0.75px]" /> Schedule</p>
             </Link>
 
             <Link href="/speakers" className="text-orange-200 hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
-              <p className="ml-3 mb-4 inline-flex"><User2 size={20} className="mr-3" /> Speakers</p>
+              <p className="ml-3 mb-4 inline-flex"><User2 size={20} className="mr-3 blur-[0.75px]" /> Speakers</p>
             </Link>
 
             <Link href="/workshops" className="text-orange-200 hidden hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
@@ -99,11 +99,11 @@ const Navbar = () => {
             </Link>
 
             <Link href="/sponsors" className="text-orange-200 hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
-              <p className="ml-3 mb-4 inline-flex"><Ribbon size={20} className="mr-3" /> Sponsors</p>
+              <p className="ml-3 mb-4 inline-flex"><Ribbon size={20} className="mr-3 blur-[0.75px]" /> Sponsors</p>
             </Link>
 
             <Link href="/volunteer" className="text-orange-200 hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
-              <p className="ml-3 mb-4 inline-flex"><Handshake size={20} className="mr-3" /> Volunteer</p>
+              <p className="ml-3 mb-4 inline-flex"><Handshake size={20} className="mr-3 blur-[0.75px]" /> Volunteer</p>
             </Link>
 
             <Link href="/tickets" className="text-orange-200  hidden hover:text-orange-300 hover:scale-99 bg-black italic" onClick={toggleMobileMenu}>
