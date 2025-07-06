@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import PageHero from "../components/page-hero";
 
 
 export default function AboutUs() {
@@ -13,7 +14,7 @@ export default function AboutUs() {
       title: "About BSides SWFL",
       content: (
         <>
-          <strong>BSides Southwest Florida (Bsides SWFL)</strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.
+          <strong>BSides Southwest Florida (BSides SWFL)</strong> is a community-driven cybersecurity conference designed to create space for open conversation, hands-on learning, and professional growth. As part of the global <a href="#">Security BSides</a> movement, our event brings together a diverse mix of security professionals, students, researchers, and curious minds to explore and advance the field of information security.
         </>
       ),
     },
@@ -31,7 +32,7 @@ export default function AboutUs() {
       title: "What to Expect",
       content: (
         <>
-          BSides SWFL offers <strong>Engaging Talks, Interactive Villages, Workshops, Opportunities to connect</strong>. Whether you're just beginning your journey or you've been in the industry for years, BSides SWFL is a place where you can share, learn, and be part of something meaningful.
+          BSides SWFL offers engaging talks, interactive villages, workshops, and opportunities to connect. Whether you're just beginning your journey or you've been in the industry for years, BSides SWFL is a place where you can share, learn, and be part of something meaningful.
         </>
       ),
     },
@@ -47,20 +48,23 @@ export default function AboutUs() {
   ]
 
   return (
-    <div className="max-w-5xl mx-auto p-4 wrapper">
-      <div className="items-center justify-center h-[100vh]">
-        <h1 className="text-4xl font-bold mt-20 text-center text-teal-700">About Us</h1>
-        <ul className="list-none">
-          <Accordion type="single" className="w-full mt-16 md:mt-[30%] lg:mt-36 xl:mt-36" collapsible>
-            {AboutUsData.map((item, index) => (
-              <AccordionItem key={item.id} value={`item-${index + 1}`} className={`gap-4`}>
-                <AccordionTrigger>{item.title}</AccordionTrigger>
-                <AccordionContent>{item.content}</AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </ul>
+    <main className="min-h-screen wrapper-pages">
+      <PageHero
+        title="About Us"
+        subtitle="Built by the community, for the community—BSides SWFL is where curiosity meets collaboration, and cybersecurity feels personal."
+      />
+
+      {/* Main content */}
+      <div className="max-w-5xl mx-auto px-6 py-16 text-center text-slate-800 pb-30">
+        <Accordion type="single" className="w-full" collapsible>
+          {AboutUsData.map((item, index) => (
+            <AccordionItem key={item.id} value={`item-${index + 1}`} className="mb-4">
+              <AccordionTrigger>{item.title}</AccordionTrigger>
+              <AccordionContent>{item.content}</AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
-    </div>
+    </main>
   );
 }
