@@ -1,45 +1,59 @@
-name: Deploy to Cloudflare Workers (Simple)
+name: Deploy to Cloudflare Pages
 
 on:
   push:
     branches:
       - main
+      - staging
   workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
-          
-      - name: Clear npm cache
-        run: npm cache clean --force
-        
-      - name: Install dependencies
+
+      - name: Validate required secrets
         run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            npm install
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "❌ ERROR: CLOUDFLARE_API_TOKEN secret is not set"
+            echo "Please configure this secret in repository settings:"
+            echo "https://github.com/${{ github.repository }}/settings/secrets/actions"
+            exit 1
           fi
-          
-      - name: Fix all native dependencies
-        run: |
-          rm -rf node_modules/@ast-grep
-          rm -rf node_modules/lightningcss
-          rm -rf node_modules/@tailwindcss
-          npm install @ast-grep/napi lightningcss @tailwindcss/oxide --force
-        
-      - name: Build and deploy to Cloudflare Workers
-        run: npm run deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} 
+          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "❌ ERROR: CLOUDFLARE_ACCOUNT_ID secret is not set"
+            echo "Please configure this secret in repository settings:"
+            echo "https://github.com/${{ github.repository }}/settings/secrets/actions"
+            exit 1
+          fi
+          echo "✅ All required secrets are configured"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Astro site
+        run: npm run build
+
+      - name: Create Cloudflare Pages project (if needed)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create bsides-swfl --production-branch main
+        continue-on-error: true
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=bsides-swfl --branch=${{ github.ref_name }}
